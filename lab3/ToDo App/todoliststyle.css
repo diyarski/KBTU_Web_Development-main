@@ -5,39 +5,39 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .todolist {
     width: 100%;
-    height: 100px;
-    background-color: rgb(21, 0, 255);
+    height: 80px;
+    background-color: rgb(0, 0, 0);
     color: whitesmoke;
-    font-size: 44px;
+    font-size: 30px;
     padding-left: 150px;
     padding-top: 25px;
     font-weight: bold;
-    font-style: italic;
+    font-style: arial;
 }
 
 h4 {
     position: absolute;
     margin-top: 180px;
-    margin-left: 480px;
+    margin-left: 380px;
     font-weight: bold;
-    font-style: italic;
-    font-size: 70px;
+    font-style: arial;
+    font-size: 50px;
 }
 
 .wrap {
     position: absolute;
     margin-top: 300px;
-    margin-left: 480px;
+    margin-left: 380px;
 }
 
 input, button {
     height: 70px;
-    border: 5px solid rgb(32, 213, 225);
+    border: 2px solid rgb(126, 126, 126);
     font-size: 24px;
     font-weight: bold;
     font-style: oblique;
@@ -47,7 +47,7 @@ button {
     width: 100px;
     position: absolute;
     margin-left: 50px;
-    background-color: rgb(21, 210, 37);
+    background-color: rgb(0, 187, 255);
 }
 
 input {
@@ -61,7 +61,7 @@ input {
 
 .li {
     padding: 4px 8px;
-    background: #eddfff;
+    background: #ffffff;
     border: 1px solid brown;
     margin: 10px 0;
     display: flex;
@@ -75,8 +75,8 @@ input {
     font-size: 30px;
     padding-left: 40px;
     font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    color:#e79107;
+    font-style: arial;
+    color:#000000;
     font-weight: bold;
 }
 
