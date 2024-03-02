@@ -13,68 +13,68 @@ export interface Product {
 export const products = [
   {
     id: 1,
-    category: "Phones, gadjets",
-    name: 'Смартфон Samsung Galaxy A33 5G 6 ГБ/128 ГБ голубой',
-    price: 799,
-    description: 'Смартфон Galaxy A33 5G стал тоньше и элегантнее благодаря матовому покрытию, качественным рамкам и безупречному корпусу камеры с Ambient Edge.',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc5/h03/49897401188382/smartfon-samsung-galaxy-a33-5g-128gb-sm-a336blbgskz-blue-104399147-1.jpg",
-    rating: "8 by 10",  
-    url: "https://kaspi.kz/shop/p/samsung-galaxy-a33-5g-6-gb-128-gb-goluboi-104399147/?c=750000000#!/item"
+    category: "Phones",
+    name: 'Смартфон Apple iPhone 15 Pro Max 256Gb серый',
+    price: 1200,
+    description: 'Высокопроизводительный смартфон с потрясающей камерой и инновационным дизайном.',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/hc1/h65/83559848181790.png?format=gallery-medium",
+    rating: "10 by 10",  
+    url: "https://kaspi.kz/shop/p/apple-iphone-15-pro-max-256gb-seryi-113138420/?c=750000000"
   },
   {
     id: 2,
-    category: "Phones, gadjets",
-    name: 'Смартфон Apple iPhone 11 128Gb Slim Box черный',
+    category: "Phones",
+    name: 'Смартфон Apple iPhone 13 128Gb Midnight черный',
     price: 699,
-    description: 'Изображение на экране смартфона диагональю 6.1 дюйма обладает поразительной детализацией и цветопередачей. ',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h17/h14/31489167425566/apple-iphone-11-128gb-slim-box-cernyj-100692388-1-Container.jpg",
-    rating: "7 by 10",
-    url: "https://kaspi.kz/shop/p/apple-iphone-11-128gb-slim-box-chernyi-100692388/?c=750000000#!/item"
+    description: 'Apple iPhone 13 128Gb Midnight: стиль, инновации, производительность, качественная камера.',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h32/h70/84378448199710.jpg?format=gallery-medium",
+    rating: "8 by 10",
+    url: "https://kaspi.kz/shop/p/apple-iphone-13-128gb-midnight-chernyi-102298404/?c=750000000"
   },
   {
     id: 3,
-    category: "Phones, gadjets",
-    name: 'iPhone 14 Pro Max 256gb',
-    price: 1000,
-    description: 'OLED, Super Retina XDR display с возможностью постоянной работы',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h00/h18/62948780834846/apple-iphone-14-pro-max-128gb-fioletovyj-106363342-1.jpg",
-    rating: "9 by 10",
-    url: "https://kaspi.kz/shop/p/apple-iphone-14-pro-max-256gb-fioletovyi-106363342/?c=750000000#!/item"
+    category: "Phones",
+    name: 'Смартфон Xiaomi Redmi 12 4G 8 ГБ/256 ГБ черный',
+    price: 130,
+    description: 'Xiaomi Redmi 12 4G: доступность, мощность, объем памяти, дизайн.',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h75/hbc/81335343775774.png?format=gallery-medium",
+    rating: "4 by 10",
+    url: "https://kaspi.kz/shop/p/xiaomi-redmi-12-4g-8-gb-256-gb-chernyi-110918152/?c=750000000"
   },
   {
     id: 4,
-    category: "Phones, gadjets",
-    name: 'Смартфон Samsung Galaxy A33 5G 6 ГБ/128 ГБ',
-    price: 599,
-    description: 'Смартфон Galaxy A33 5G стал тоньше и элегантнее благодаря матовому покрытию, качественным рамкам и безупречному корпусу камеры с Ambient Edge',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h56/h8c/49894748160030/samsung-galaxy-a33-5g-6-gb-128-gb-cernyj-104398547-1.jpg",
-    rating: "5 by 10",
-    url: "https://kaspi.kz/shop/p/samsung-galaxy-a33-5g-6-gb-128-gb-chernyi-104398547/?c=750000000#!/item"
+    category: "Phones",
+    name: 'Смартфон Samsung Galaxy A24 6 ГБ/128 ГБ черный',
+    price: 180,
+    description: 'Samsung Galaxy A24: стильный дизайн, производительность, достаточный объем памяти, качественные фотоснимки.',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/hdc/h12/80750151303198.jpg?format=gallery-medium",
+    rating: "6 by 10",
+    url: "https://kaspi.kz/shop/p/samsung-galaxy-a24-6-gb-128-gb-chernyi-110343531/?c=750000000"
   },
   {
     id: 5,
-    category: "Phones, gadjets",
-    name: 'Смартфон Xiaomi Redmi Note 11 Pro 8 ГБ/128 ГБ',
-    price: 399,
-    description: 'Сверхвысокая частота обновления. Высокая частота обновления 120 Гц обеспечивает бесперебойную работу и высокую детализацию изображения при просмотре веб-страниц.',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h11/h23/51166990368798/xiaomi-redmi-note-11-pro-8-gb-128-gb-seryi-103971386-1.jpg",
-    rating: "4 by 10",
-    url: "https://kaspi.kz/shop/p/xiaomi-redmi-note-11-pro-8-gb-128-gb-seryi-103971386/?c=750000000#!/item"
+    category: "Phones",
+    name: 'Смартфон Apple iPhone 11 128Gb Slim Box черный',
+    price: 450,
+    description: 'Apple iPhone 11 Slim Box: инновации, камера, производительность, стильный дизайн, удобство использования.',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/hd8/hac/63897052413982.jpg?format=gallery-medium",
+    rating: "7 by 10",
+    url: "https://kaspi.kz/shop/p/apple-iphone-11-128gb-slim-box-chernyi-100692388/?c=750000000"
   },
   {
     id: 6,
-    category: "Phones, gadjets",
-    name: 'Смартфон Apple iPhone 13 128Gb розовый',
-    price: 899,
-    description: 'Apple iPhone 13 получил дисплей 6.1 дюйма Super Retina XDR, который отличается невероятно высокой плотностью пикселей — фотографии, видео и текст выглядят поразительно четко.',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/ha0/h0e/46392660819998/apple-iphone-13-128gb-rozovyj-102298145-1-Container.jpg",
-    rating: "7 by 10",
-    url: "https://kaspi.kz/shop/p/apple-iphone-13-128gb-rozovyi-102298145/?c=750000000#!/item"
+    name: 'Смартфон Samsung Galaxy A54 5G 8 ГБ/256 ГБ черный',
+    category: "Phones",
+    price: 350,
+    description: 'Samsung Galaxy A54 5G: мощность, объем памяти, быстрая сеть, впечатляющая камера, элегантность.',
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h81/h13/80435536887838.jpg?format=gallery-medium",
+    rating: "6 by 10",
+    url: "https://kaspi.kz/shop/p/samsung-galaxy-a54-5g-8-gb-256-gb-chernyi-110044379/?c=750000000"
   },
   {
     id: 7,
-    category: "Phones, gadjets",
     name: 'Смартфон Samsung Galaxy A03 Core 2 ГБ/32 ГБ',
+    category: "Phones",
     price: 299,
     description: 'Больше дисплей, больше возможностей. Расширьте границы доступного с 6.5-дюймовым экраном с V-образным вырезом.',
     image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h15/hf4/52423971995678/samsung-galaxy-a03-core-2-gb-32-gb-bronzovyj-105772530-1.jpg",
@@ -83,8 +83,8 @@ export const products = [
   },
   {
     id: 8,
-    category: "Phones, gadjets",
     name: 'Смартфон Xiaomi Redmi 10C 4 ГБ/128 ГБ ',
+    category: "Phones",
     price: 599,
     description: 'Xiaomi Redmi 10C оснащен большим дисплеем с диагональю 6.71 дюйма с защитным стеклом Corning Gorilla Glass, которое защищает экран от царапин и повреждений при падениях. ',
     image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h58/hff/51348549861406/xiaomi-redmi-10c-4-gb-128-gb-zelenyi-104443164-1.jpg",
@@ -93,18 +93,18 @@ export const products = [
   },
   {
     id: 9,
-    category: "Phones, gadjets",
     name: 'Смартфон Apple iPhone 14 Pro 256Gb',
+    category: "Phones",
     price: 1299,
     description: 'голосовое управление, голосовой набор, поддержка nano SIM + eSIM',
-    image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/ha3/hb5/63073435254814/apple-iphone-14-pro-128gb-cernyj-106363265-1.jpg",
+    image: "https://resources.cdn-kaspi.kz/img/m/p/h19/h85/64508108931102.jpg?format=gallery-medium",
     rating: "9 by 10",
     url: "https://kaspi.kz/shop/p/apple-iphone-14-pro-256gb-fioletovyi-106363319/?c=750000000#!/item"
   },
   {
     id: 10,
-    category: "Phones, gadjets",
     name: 'Смартфон Xiaomi Redmi 10C 4 ГБ/64 ГБ',
+    category: "Phones",
     price: 699,
     description: 'Xiaomi Redmi 10C оснащен большим дисплеем с диагональю 6.71 дюйма с защитным стеклом Corning Gorilla Glass, которое защищает экран от царапин и повреждений при падениях. ',
     image: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h9f/h3e/49939919699998/xiaomi-redmi-10c-4-gb-64-gb-seryj-104417151-1.jpg",
@@ -213,7 +213,7 @@ export const products = [
   },
   {
     id: 21,
-    category: "Smart TV",
+    category: "TVs",
     name: 'Телевизор Samsung UE43T5300AUXCE',
     price: 1599,
     description: 'Смотрите HDR контент с улучшенной четкостью и точнейшей цветопередачей. Телевизор Samsung UHD обеспечивает более точную передачу деталей в самых ярких и темных сценах.',
@@ -223,7 +223,7 @@ export const products = [
   },
   {
     id: 22,
-    category: "Smart TV",
+    category: "TVs",
     name: 'Телевизор Xiaomi Mi TV P1 50 L50M6-6ARG',
     price: 1899,
     description: 'Дизайн обеспечивает более высокое соотношение размера экрана и корпуса, а также углы обзора 178° для более реалистичного изображения и приятного просмотра.',
@@ -233,7 +233,7 @@ export const products = [
   },
   {
     id: 23,
-    category: "Smart TV",
+    category: "TVs",
     name: 'Телевизор Yasin 32G7 81 см черный',
     price: 2199,
     description: 'Благодаря разрешению Ultra-HD зритель с удовольствием просмотрит на своём телевизоре любой фильм, ведь его изображение будет выше всяких похвал. Технологии Smart и Android у Вас дома!',
@@ -243,7 +243,7 @@ export const products = [
   },
   {
     id: 24,
-    category: "Smart TV",
+    category: "TVs",
     name: 'Телевизор SSMART 43F20 109 см черный',
     price: 2599,
     description: 'Конструкция эргономичная телевизор устанавливается на крепких ножках.',
@@ -253,7 +253,7 @@ export const products = [
   },
   {
     id: 25,
-    category: "Smart TV",
+    category: "TVs",
     name: 'Телевизор Qwatt Q55YK-MB 140 см черный',
     price: 1099,
     description: 'Конструкция эргономичная телевизор устанавливается на крепких ножках.',
